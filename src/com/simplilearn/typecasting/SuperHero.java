@@ -4,7 +4,7 @@ public class SuperHero {
 	
 	// protected variables
 	protected int rank =21;
-	protected String power = "Tech Power";
+	protected String power = "Tech Power Test";
 	protected String name = "Iron Man";
 
 	// protected methods
