@@ -20,6 +20,8 @@ public class ExplicitTypeCastDemp {
 		short shortPrice = (short) bigPrice; // Narrowing => long(8 byte) -> short (2 byte)
 		
 		byte bytePrice = (byte) intPrice; // Narrowing => int(4 byte) -> byte (1 byte)
+		// While converting to byte, it should validate the -128 to 127 range and then display the end result after the deduction 
+		// For eg. 130.34 going to be like this: Step01 :-  130-127 = 3 ; Step02 :- -128(1),-127(2),-126(3)
 		
 		
 		System.out.println("Double price : "+price);
