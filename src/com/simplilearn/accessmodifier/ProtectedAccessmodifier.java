@@ -3,7 +3,7 @@ package com.simplilearn.accessmodifier;
 import com.simplilearn.typecasting.SuperHero;
 
 public class ProtectedAccessmodifier  extends SuperHero {
-
+ 
 public static void main(String[] args) {
 		
 		// create object
