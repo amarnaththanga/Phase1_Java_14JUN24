@@ -9,6 +9,7 @@ public class StringImmutableDemo {
 
 		String username = "John";
 		
+		
 		// update the string -> concat()
 		String response = username.concat(" Smith");
 		
