@@ -7,8 +7,7 @@ public class StringImmutableDemo {
 		// In java, string objects are immutable.
 		// Immutable simply means unmodifiable or non changeable values.
 
-		String username = "John";
-		
+		String username = "John";		
 		
 		// update the string -> concat()
 		String response = username.concat(" Smith");
